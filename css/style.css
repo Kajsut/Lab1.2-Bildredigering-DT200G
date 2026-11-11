@@ -86,3 +86,7 @@ p {
     background-color: var(--background-light);
     margin: 1rem;
 }
+
+.pictures-text img {
+    width: 100%;
+}
