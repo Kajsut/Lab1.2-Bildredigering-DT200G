@@ -4,10 +4,10 @@ const menuButton = document.querySelector(".header-menu");
 const menuLinks = document.querySelector(".menu");
 
 // Hämtar element från bildspelet
-const prevButton = document.querySelector(".prev-button");
+const prevButton = document.querySelector(".prev-slide");
 const nextButton = document.querySelector(".next-slide");
 const counter = document.querySelector(".counterslide");
-const slideImg = document.querySelector(".slidesho0w");
+const slideImg = document.querySelector(".slideshow");
 
 
 // Öppnar och stänger hamburgarmenyn
