@@ -35,10 +35,17 @@ const pictures = [
     }
 ];
 
+let picNow = 0;
+
 function buttonNextPic () {
 
+    if (picNow === pictures.length -1) {
+        picNow = 0;
+    } else { 
+        picNow++;
+    }
 }
 
 function buttonPrevPic () {
-    
+
 }
