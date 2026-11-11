@@ -48,4 +48,9 @@ function buttonNextPic () {
 
 function buttonPrevPic () {
 
+    if (picNow === 0) {
+        picNow = pictures.length -1;
+    } else {
+        picNow--;
+    }
 }
