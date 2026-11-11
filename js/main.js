@@ -59,7 +59,7 @@ function buttonPrevPic () {
     showNextPic(picNow);
 }
 
-function showNextPic () {
+function showNextPic (picNow) {
     slideImg.src = pictures[picNow].src;
     slideImg.alt = pictures[picNow].alt;
 
