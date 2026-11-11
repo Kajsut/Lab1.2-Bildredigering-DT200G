@@ -10,7 +10,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     color: var(--textcolor);
-    background-color: var(--background);
+
+}
+
+body {
+        background-color: var(--background);
 }
 
 /*Öppnar och stänger menyn när man trycker på hamburgarknappen*/
@@ -76,4 +80,8 @@ h2 {
 
 p {
     padding: 1rem;
+}
+
+.pictures-text {
+    background-color: var(--background-light);
 }
