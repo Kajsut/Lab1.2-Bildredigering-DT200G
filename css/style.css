@@ -47,8 +47,15 @@ header {
 /*Ändrar storlek och utseende i knappar*/
 button {
     border: none;
-    background-color: var(--background);
     font-size: 3rem;
+}
+
+header button {
+        background-color: var(--background);
+}
+
+main button {
+    background-color: var(--background-light);
 }
 
 /*Herosektionen, bild och h1*/
@@ -90,6 +97,7 @@ p {
 }
 
 /*Hur en sektion ser ut ser ut*/
+.slideshow-buttons,
 .section-aboutme,
 .pictures-text {
     background-color: var(--background-light);
@@ -100,3 +108,15 @@ p {
 .pictures-text img {
     width: 100%;
 }
+
+/*Hur bildspelet ser ut*/
+.slideshow {
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.slidebuttons {
+    display: flex;
+    justify-content: center;
+}
+
