@@ -40,9 +40,22 @@ header {
     padding-bottom: 1rem;
 }
 
+
+/*Herosektionen, bild och h1*/
 .herosection {
+    /*Hur herobilden ser ut*/
     background-image: url("../images/header.png");
     background-size: cover;
     height: 400px;
-    
+
+    /*Hur texten på bilden ligger*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
 }
+
+.herosection h1 {
+    background: transparent;
+}
+
