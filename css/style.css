@@ -83,11 +83,14 @@ p {
     padding: 1rem;
 }
 
+/*Hur en sektion ser ut ser ut*/
+.section-aboutme,
 .pictures-text {
     background-color: var(--background-light);
     margin: 1rem;
 }
 
+.section-aboutme,
 .pictures-text img {
     width: 100%;
 }
