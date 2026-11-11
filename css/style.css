@@ -4,8 +4,11 @@
     --textcolor: #202D17;
 }
 
+/*Grundregler för hela hemsidan*/
 * {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    color: var(--textcolor);
+    background-color: var(--background);
 }
