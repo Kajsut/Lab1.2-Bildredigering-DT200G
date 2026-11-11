@@ -34,3 +34,11 @@ const pictures = [
         alt: "Tagen uppifrån, en vit blomma med rosa kanter och gul mitten, ljusare färger, gräset bakom är någon mer deskretare grön färg"
     }
 ];
+
+function buttonNextPic () {
+
+}
+
+function buttonPrevPic () {
+    
+}
