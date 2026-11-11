@@ -35,3 +35,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+header {
+    padding-bottom: 1rem;
+}
+
+.herosection {
+    background-image: url("../images/header.png");
+    background-size: cover;
+    height: 400px;
+    
+}
