@@ -12,3 +12,12 @@
     color: var(--textcolor);
     background-color: var(--background);
 }
+
+/*Öppnar och stänger menyn när man trycker på hamburgarknappen*/
+.menu {
+    display: none;
+}
+
+.menu.open {
+    display: block;
+}
