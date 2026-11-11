@@ -44,6 +44,12 @@ header {
     padding-bottom: 1rem;
 }
 
+/*Ändrar storlek och utseende i knappar*/
+button {
+    border: none;
+    background-color: var(--background);
+    font-size: 3rem;
+}
 
 /*Herosektionen, bild och h1*/
 .herosection {
