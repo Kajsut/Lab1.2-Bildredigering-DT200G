@@ -54,3 +54,10 @@ function buttonPrevPic () {
         picNow--;
     }
 }
+
+function showNextPic () {
+    slideImg.src = pictures[picNow].src;
+    slideImg.alt = pictures[picNow].alt;
+
+    counter.innerHTML = `${picNow}/${pictures.length}`;
+}
