@@ -65,3 +65,8 @@ function showNextPic () {
 
     counter.innerHTML = `${picNow}/${pictures.length}`;
 }
+
+if (buttonNextPic && buttonPrevPic) {
+    prevButton.addEventListener("click", buttonPrevPic);
+    nextButton.addEventListener("click", buttonNextPic);
+}
