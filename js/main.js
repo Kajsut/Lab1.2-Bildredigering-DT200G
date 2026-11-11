@@ -20,6 +20,7 @@ menuButton.addEventListener("click", function() {
  * Bilspelet
  */
 
+//Bilderna och alt-texter till bildspelet
 const pictures = [
     {
         src: "images/bildserie010.jpg",
@@ -37,6 +38,7 @@ const pictures = [
 
 let picNow = 0;
 
+//När man trycker på högerknappen i bildspelet, så räknar det ut vilken bild som ska visas
 function buttonNextPic () {
 
     if (picNow === pictures.length -1) {
@@ -48,6 +50,7 @@ function buttonNextPic () {
     showNextPic(picNow);
 }
 
+//När man trycker på vänsterknappen i bildspelet, så räknar det ut vilken bild som ska visas
 function buttonPrevPic () {
 
     if (picNow === 0) {
@@ -59,6 +62,7 @@ function buttonPrevPic () {
     showNextPic(picNow);
 }
 
+//Visar upp nästa bild, samt skriver ut vilket nummer på bilden det är
 function showNextPic (picNow) {
     slideImg.src = pictures[picNow].src;
     slideImg.alt = pictures[picNow].alt;
@@ -66,6 +70,7 @@ function showNextPic (picNow) {
     counter.innerHTML = `${picNow +1}/${pictures.length}`;
 }
 
+//Lyssnar på knapptrycken, på den sidan knapparna existerar på
 if (prevButton && nextButton) {
     prevButton.addEventListener("click", buttonPrevPic);
     nextButton.addEventListener("click", buttonNextPic);
