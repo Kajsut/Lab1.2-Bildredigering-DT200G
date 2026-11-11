@@ -1,5 +1,7 @@
 :root {
-    --background: ;
+    --background: #C4B49B;
+    --background-light: #E8DDC9;
+    --textcolor: #202D17;
 }
 
 * {
