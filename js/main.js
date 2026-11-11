@@ -63,7 +63,7 @@ function showNextPic (picNow) {
     slideImg.src = pictures[picNow].src;
     slideImg.alt = pictures[picNow].alt;
 
-    counter.innerHTML = `${picNow}/${pictures.length}`;
+    counter.innerHTML = `${picNow +1}/${pictures.length}`;
 }
 
 if (prevButton && nextButton) {
