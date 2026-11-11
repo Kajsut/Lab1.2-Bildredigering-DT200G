@@ -42,6 +42,9 @@ a:hover {
 
 header {
     padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*Ändrar storlek och utseende i knappar*/
@@ -51,7 +54,7 @@ button {
 }
 
 header button {
-        background-color: var(--background);
+    background-color: var(--background);
 }
 
 main button {
