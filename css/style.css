@@ -59,3 +59,12 @@ header {
     background: transparent;
 }
 
+main {
+    text-align: center;
+}
+
+h1 {
+    border: solid 2px;
+    padding: 1rem 1rem;
+    display: inline-block;
+}
