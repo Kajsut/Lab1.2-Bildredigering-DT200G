@@ -44,6 +44,8 @@ function buttonNextPic () {
     } else { 
         picNow++;
     }
+
+    showNextPic(picNow);
 }
 
 function buttonPrevPic () {
@@ -53,6 +55,8 @@ function buttonPrevPic () {
     } else {
         picNow--;
     }
+
+    showNextPic(picNow);
 }
 
 function showNextPic () {
