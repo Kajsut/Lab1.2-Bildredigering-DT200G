@@ -94,6 +94,7 @@ h1 {
     border: solid 2px;
     padding: 1rem 1rem;
     display: inline-block;
+    margin-bottom: 1rem;
 }
 
 h2 {
@@ -149,6 +150,7 @@ p {
     .herosection {
         height: 700px;
     }
+
 
     .slideshow-buttons,
     .section-aboutme,
