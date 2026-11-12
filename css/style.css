@@ -169,12 +169,20 @@ p {
 
     .pictures {
         display: flex;
-       /* justify-content: space-around;
+        justify-content: space-around;
         
     }
 
-    .original img {
+    /*Ger bilderna som ligger jämte varandra samma storlek*/
+    .wide {
         width: 50%;
+    }
+
+    .high {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
 }
