@@ -146,10 +146,13 @@ p {
         margin-right: 3rem;
     }
 
-    p {
+    /*Ger dessa reglerna till alla p-element förutom slidebuttons*/
+    p:not(.slidebuttons p) {
         max-width: 40rem;
         margin: auto;
     }
+
+
     /*Herobilden*/
     .herosection {
         height: 700px;
