@@ -149,4 +149,11 @@ p {
     .herosection {
         height: 700px;
     }
+
+    .slideshow-buttons,
+    .section-aboutme,
+    .pictures-text {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
