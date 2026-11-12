@@ -185,4 +185,9 @@ p {
         align-items: center;
     }
     
+
+    .section-aboutme {
+        display: flex;
+        flex-direction: row;
+    }
 }
