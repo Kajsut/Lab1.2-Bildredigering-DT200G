@@ -48,8 +48,8 @@ a:hover {
 }
 
 header {
-     padding-bottom: 1rem;
-     margin: auto 1rem;
+    padding-bottom: 1rem;
+    margin: auto 1rem;
 }
 
 /*Ändrar storlek och utseende i knappar*/
@@ -144,6 +144,14 @@ p {
         gap: 2rem;
         justify-content: flex-end;
         margin-right: 3rem;
+    }
+
+    /*Hur elementen ligger i headern*/
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
 
     /*Ger dessa reglerna till alla p-element förutom slidebuttons*/
