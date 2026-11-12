@@ -144,4 +144,9 @@ p {
         justify-content: flex-end;
         margin-right: 3rem;
     }
+
+    /*Herobilden*/
+    .herosection {
+        height: 700px;
+    }
 }
