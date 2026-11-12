@@ -110,6 +110,7 @@ p {
 .pictures-text {
     background-color: var(--background-light);
     margin: 1rem;
+    border-radius: 10px;
 }
 
 .section-aboutme,
