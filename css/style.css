@@ -151,11 +151,11 @@ p {
         height: 700px;
     }
 
-
+    /*Hur de olika sektionerna ser ut*/
     .slideshow-buttons,
     .section-aboutme,
     .pictures-text {
         width: 90%;
-        margin: 0 auto;
+        margin: 1rem auto;
     }
 }
