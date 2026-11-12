@@ -119,8 +119,10 @@ p {
 
 /*Hur bildspelet ser ut*/
 .slideshow {
-    width: 90%;
+    max-width: 90%;
+    max-height: 750px;
     margin-top: 1rem;
+
 }
 
 .slidebuttons {
