@@ -165,4 +165,16 @@ p {
         width: 90%;
         margin: 1rem auto;
     }
+
+
+    .pictures {
+        display: flex;
+       /* justify-content: space-around;
+        
+    }
+
+    .original img {
+        width: 50%;
+    }
+    
 }
