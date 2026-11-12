@@ -128,3 +128,20 @@ p {
     justify-content: center;
 }
 
+@media (min-width: 768px) {
+    /*Hur menyn ser ut i headern*/
+    .header-menu {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu ul {
+        display: flex;
+        gap: 2rem;
+        justify-content: flex-end;
+        margin-right: 3rem;
+    }
+}
